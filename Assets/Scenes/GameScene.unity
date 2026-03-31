@@ -3758,8 +3758,6 @@ MonoBehaviour:
   WinText: {fileID: 118203801}
   TimerText: {fileID: 5496874}
   PowerUpsManagerScript: {fileID: 1822183216}
-  pickUpAudio: {fileID: 0}
-  clip: {fileID: 8300000, guid: 4d38d5a949b648843a29db628f5541c5, type: 3}
 --- !u!4 &1183475614
 Transform:
   m_ObjectHideFlags: 0
@@ -6445,7 +6443,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0, y: 0}
+  m_AnchoredPosition: {x: -15, y: 0}
   m_SizeDelta: {x: 200, y: 50}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1936702860
@@ -6495,8 +6493,8 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 23.97
-  m_fontSizeBase: 23.97
+  m_fontSize: 22
+  m_fontSizeBase: 22
   m_fontWeight: 400
   m_enableAutoSizing: 0
   m_fontSizeMin: 18
