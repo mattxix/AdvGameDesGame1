@@ -16,9 +16,13 @@ public class TikiManager : MonoBehaviour
     float elapsedTime = 0f;
     bool timerRunning = true;
 
+    public AudioSource pickUpAudio;
+    public AudioClip clip;
+
     void Start()
     {
         WinText.gameObject.SetActive(false);
+        pickUpAudio = GetComponent<AudioSource>();
     }
 
     void Update()
@@ -34,6 +38,7 @@ public class TikiManager : MonoBehaviour
     {
         tikisPickedUp++;
         tikisToSpend++;
+        pickUpAudio.PlayOneShot(clip);
         tikiNumberGoal.text = tikisPickedUp.ToString() + "/" + totalTikisToCollect;
         tikiNumberText.text = tikisToSpend.ToString();
         PowerUpsManagerScript.UpdateShopVisibility();
