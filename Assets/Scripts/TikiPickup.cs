@@ -2,14 +2,12 @@ using UnityEngine;
 
 public class TikiPickup : MonoBehaviour
 {
-    public AudioSource pickUpAudio;
-    public AudioClip clip;
+
 
 
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {
-        pickUpAudio = GetComponent<AudioSource>();
     }
 
     // Update is called once per frame
@@ -25,7 +23,6 @@ public class TikiPickup : MonoBehaviour
     private void OnTriggerEnter(Collider other)
     {
         FindFirstObjectByType<TikiManager>().TikiPickedUp();
-        pickUpAudio.PlayOneShot(clip);
         Destroy(gameObject);
     }
 }
