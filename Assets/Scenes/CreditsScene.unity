@@ -623,7 +623,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 1}
   m_AnchorMax: {x: 0, y: 1}
-  m_AnchoredPosition: {x: 341, y: -167}
+  m_AnchoredPosition: {x: 341, y: -205.00002}
   m_SizeDelta: {x: 200, y: 50}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &837203878
@@ -646,12 +646,12 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: 'Matt V - Lead Programmer & Designer
+  m_text: 'Matt R - Lead Programmer & Designer
 
     Matt G - Ui Designer
 
     Cody
-    - Gdd Writer'
+    - Project Leader, Gdd Writer'
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 041035479ca11c442ba9ef7fb04288ef, type: 2}
   m_sharedMaterial: {fileID: 2894027198712553609, guid: 041035479ca11c442ba9ef7fb04288ef, type: 2}
@@ -1182,7 +1182,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 1}
   m_AnchorMax: {x: 0, y: 1}
-  m_AnchoredPosition: {x: 420, y: -101}
+  m_AnchoredPosition: {x: 420, y: -139}
   m_SizeDelta: {x: 200, y: 50}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1710583565
@@ -2529,7 +2529,7 @@ PrefabInstance:
       objectReference: {fileID: 1628280155}
     - target: {fileID: 318444149424538206, guid: f4d3071b2c9962f4e95f4686e5a16fb4, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
-      value: QuitGame
+      value: MainMenu
       objectReference: {fileID: 0}
     - target: {fileID: 603163515660727864, guid: f4d3071b2c9962f4e95f4686e5a16fb4, type: 3}
       propertyPath: m_Name
